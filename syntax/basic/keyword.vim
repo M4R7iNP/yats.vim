@@ -42,8 +42,8 @@ syntax keyword typescriptOperator              delete new typeof void
 syntax keyword typescriptForOperator           contained in of
 syntax keyword typescriptBoolean               true false nextgroup=@typescriptSymbols skipwhite skipempty
 syntax keyword typescriptNull                  null undefined nextgroup=@typescriptSymbols skipwhite skipempty
-syntax keyword typescriptMessage               alert confirm prompt status
-  \ nextgroup=typescriptDotNotation,typescriptFuncCallArg
+" syntax keyword typescriptMessage               alert confirm prompt status
+  " \ nextgroup=typescriptDotNotation,typescriptFuncCallArg
 syntax keyword typescriptGlobal                self top parent
   \ nextgroup=@afterIdentifier
 

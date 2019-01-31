@@ -47,7 +47,7 @@ if exists("did_typescript_hilink")
 
   HiLink typescriptEndColons            Exception
   HiLink typescriptSymbols              Normal
-  HiLink typescriptBraces               Function
+  HiLink typescriptBraces               Noise
   HiLink typescriptParens               Normal
   HiLink typescriptComment              Comment
   HiLink typescriptLineComment          Comment
@@ -70,7 +70,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptTemplate             String
   HiLink typescriptEventString          String
   HiLink typescriptASCII                Special
-  HiLink typescriptTemplateSB           Label
+  HiLink typescriptTemplateSB           Noise
   HiLink typescriptRegexpString         String
   HiLink typescriptGlobal               Constant
   HiLink typescriptTestGlobal           Function
@@ -81,7 +81,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptDefault              typescriptCase
   HiLink typescriptBranch               Conditional
   HiLink typescriptIdentifier           Structure
-  HiLink typescriptVariable             Identifier
+  HiLink typescriptVariable             StorageClass
   HiLink typescriptEnumKeyword          Identifier
   HiLink typescriptRepeat               Repeat
   HiLink typescriptForOperator          Repeat
@@ -91,19 +91,19 @@ if exists("did_typescript_hilink")
   HiLink typescriptKeywordOp            Identifier
   HiLink typescriptCastKeyword          Special
   HiLink typescriptType                 Type
-  HiLink typescriptNull                 Boolean
+  HiLink typescriptNull                 Type
   HiLink typescriptNumber               Number
   HiLink typescriptExponent             Number
   HiLink typescriptBoolean              Boolean
-  HiLink typescriptObjectLabel          typescriptLabel
+  " HiLink typescriptObjectLabel          typescriptLabel
   HiLink typescriptLabel                Label
   HiLink typescriptStringProperty       String
-  HiLink typescriptImport               Special
+  HiLink typescriptImport               Include
   HiLink typescriptAmbientDeclaration   Special
-  HiLink typescriptExport               Special
+  HiLink typescriptExport               Include
   HiLink typescriptModule               Special
-  HiLink typescriptTry                  Special
-  HiLink typescriptExceptions           Special
+  HiLink typescriptTry                  Exception
+  HiLink typescriptExceptions           Exception
 
   HiLink typescriptMember              Function
   HiLink typescriptMethodAccessor       Operator
@@ -111,7 +111,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptAsyncFuncKeyword     Keyword
   HiLink typescriptObjectAsyncKeyword   Keyword
   HiLink typescriptAsyncFor             Keyword
-  HiLink typescriptFuncKeyword          Keyword
+  HiLink typescriptFuncKeyword          Type
   HiLink typescriptAsyncFunc            Keyword
   HiLink typescriptArrowFunc            Type
   HiLink typescriptFuncName             Function

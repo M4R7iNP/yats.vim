@@ -18,5 +18,5 @@ syntax keyword typescriptDateMethod contained toLocaleFormat toLocaleString toLo
 syntax keyword typescriptDateMethod contained toSource toString toTimeString toUTCString nextgroup=typescriptFuncCallArg
 syntax keyword typescriptDateMethod contained valueOf nextgroup=typescriptFuncCallArg
 syntax cluster props add=typescriptDateMethod
-if exists("did_typescript_hilink") | HiLink typescriptDateMethod Keyword
+if exists("did_typescript_hilink") | HiLink typescriptDateMethod Constant
 endif
