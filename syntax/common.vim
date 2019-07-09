@@ -80,7 +80,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptCase                 Conditional
   HiLink typescriptDefault              typescriptCase
   HiLink typescriptBranch               Conditional
-  HiLink typescriptIdentifier           Structure
+  HiLink typescriptIdentifier           Special
   HiLink typescriptVariable             StorageClass
   HiLink typescriptEnumKeyword          Identifier
   HiLink typescriptRepeat               Repeat
@@ -121,10 +121,10 @@ if exists("did_typescript_hilink")
 
   HiLink typescriptClassKeyword         Keyword
   HiLink typescriptClassExtends         Keyword
-  " HiLink typescriptClassName            Function
+  HiLink typescriptClassName            Function
   HiLink typescriptAbstract             Special
-  " HiLink typescriptClassHeritage        Function
-  " HiLink typescriptInterfaceHeritage    Function
+  HiLink typescriptClassHeritage        Function
+  HiLink typescriptInterfaceHeritage    Function
   HiLink typescriptClassStatic          StorageClass
   HiLink typescriptReadonlyModifier     Keyword
   HiLink typescriptInterfaceKeyword     Keyword
@@ -155,6 +155,7 @@ if exists("did_typescript_hilink")
   HiLink typescriptConstructor           Keyword
   HiLink typescriptDecorator             Special
   HiLink typescriptAssertType            Keyword
+  HiLink typescriptBinaryOp              Keyword
 
   highlight link typeScript             NONE
 
